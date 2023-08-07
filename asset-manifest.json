@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Group5-Presentation/static/css/main.f32b0457.css",
+    "main.js": "/Group5-Presentation/static/js/main.272bdffd.js",
+    "static/media/IMG_20230219_064628-Enhanced-5.jpg": "/Group5-Presentation/static/media/IMG_20230219_064628-Enhanced-5.780b4dec1b005daad23f.jpg",
+    "index.html": "/Group5-Presentation/index.html",
+    "main.f32b0457.css.map": "/Group5-Presentation/static/css/main.f32b0457.css.map",
+    "main.272bdffd.js.map": "/Group5-Presentation/static/js/main.272bdffd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f32b0457.css",
+    "static/js/main.272bdffd.js"
+  ]
+}
