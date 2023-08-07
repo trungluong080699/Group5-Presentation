@@ -109,8 +109,26 @@ function NPV_discrate(){
                     color: "white"
                 },
                 grid: {
-                    color: "rgb(64, 64, 64)",
-                    lineWidth: 1
+                    color: function(context) {
+                        if (context.tick.value === 0) {
+                          return "white";
+                        } 
+                        else  {
+                          return "rgb(64, 64, 64)";
+                        }
+            
+                        
+                      },
+                    lineWidth: function(context) {
+                        if (context.tick.value === 0) {
+                          return 4;
+                        } 
+                        else  {
+                          return 1;
+                        }
+            
+                        
+                      },
                     
                 }
             },
