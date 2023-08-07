@@ -50,8 +50,8 @@ function IrrCalculation(){
                 <table>
                     <tr>
                         <th className={classes.empty}></th>
-                        <th><div>IRR</div></th>
                         <th><div>NPV</div></th>
+                        <th><div>IRR</div></th>
                         
                     </tr>
                     <tr>
