@@ -1,0 +1,153 @@
+.brand_name {
+    width: 100%;
+    height: var(--brand-name-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0px;
+  }
+  .brand_name h1 div {
+    background-image: url("../../../../public/Photos/IMG_20230219_064628-Enhanced-5.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+    animation-name: translating_right;
+    animation-duration: 1500ms;
+  }
+  .brand_name h1 .The {
+    background-position: center center;
+    background-size: 2000px auto;
+  }
+  .brand_name h1 .Altria {
+    background-position: 45% center;
+    background-size: 2000px auto;
+  }
+  .brand_name h1 .WatchStrap {
+    background-position: 46% 47%;
+    background-size: 2500px auto;
+  }
+  
+  .brand_name h1 .The {
+    font-size: 5rem;
+  }
+
+  .brand_name h1 .The span:nth-child(2){
+    font-size: 6rem;
+  }
+
+
+  
+  .brand_name h1 .Altria {
+    font-size: 8rem;
+  }
+  
+  .brand_name h1 .WatchStrap {
+    font-size: 8.5rem;
+  }
+  
+  @keyframes translating_right {
+    from {
+      transform: translateX(calc(-100% - var(--body-padding) / 2));
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 8rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 8.5rem;
+    }
+    .brand_name {
+      display: block;
+      position: relative;
+      height: -moz-fit-content;
+      height: fit-content;
+    }
+    .brand_name .The, .brand_name .Altria {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 5.5rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 6.5rem;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 5rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 5.5rem;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 4.5rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 4.5rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 4.5rem;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 4rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .brand_name h1 .The {
+      font-size: 3rem;
+    }
+    .brand_name h1 .Altria {
+      font-size: 3.5rem;
+    }
+    .brand_name h1 .WatchStrap {
+      font-size: 5.5rem;
+    }
+  }
+
+
+
+ 

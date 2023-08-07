@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.changing_dataset{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.changing_dataset label{
+    font-size: 1.5rem;
+
+}
+
+.changing_dataset select{
+    height: 3rem;
+    width: 200px;
+    background-color: black;
+} 
+
+.form_container h2{
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    color: grey;
+}
+
+.cashflow{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.label{
+    font-size: 1.5rem;
+    width: 120px;
+    
+}
+
+input{
+    color: black;
+    font-size: 1.5rem;
+}
+
+button{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table th, td{
+    display: inline-block;
+    width: 180px;
+    font-size: 1.5rem;
+    height: 50px;
+    border: 1px solid;
+
+}
+
+table th div, td div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr:last-child td{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_container table tr:last-child td input{
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.table_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px
+    }
+}
+
+@media screen and (max-width: 600px){
+    table th, td{
+        width: 150px;
+        font-size: 1.5rem;
+
+    
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    table th, td{
+        width: 120px;
+        font-size: 1.5rem;
+
+    
+    }
+}
+
+@media screen and (max-width: 400px){
+    table th, td{
+        width: 100px;
+        font-size: 1.5rem;
+
+    
+    }
+
+    .table_container table tr:last-child td input{
+        height: 30px;
+        margin-left: 10px;
+        width: 100px;
+    }
+}
+
+
+
