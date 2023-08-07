@@ -9,6 +9,9 @@ function IrrCalculation(){
     const data = useContext(dataContext)
     return (
         <div>
+            <p className={classes.notes}>
+                *To finalize data entry, please press enter after finishing inputing data in each field. 
+            </p>
            
             <div className={classes.container}>
                 <div className={classes.form_container}>

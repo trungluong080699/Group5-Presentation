@@ -4,6 +4,10 @@
     gap: 100px;
     margin-bottom: 50px;
 }
+.notes{
+    color: white;
+    font-size: 20px;
+}
 .changing_dataset{
     height: 100px;
     display: flex;
@@ -97,6 +101,10 @@ table tr:last-child td{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+select{
+    font-size: 2rem;
 }
 
 
